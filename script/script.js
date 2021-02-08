@@ -70,8 +70,19 @@ let filterMenu = () =>{
 
 
 
-
 document.addEventListener('DOMContentLoaded', function(){
 	filterMenu();
 	database('all');
+
+	document.getElementById('openMemu').addEventListener('click', ()=>{
+		document.getElementById('menuWrapper').style.display = 'flex';
+		document.getElementById('menuWrapper').style.background = '#333';
+		document.getElementById('menuWrapper').style.zIndex = '2';
+	})
+
+	document.getElementById('menuWrapper').addEventListener('click', ()=>{
+		document.getElementById('menuWrapper').style.display = 'none';
+	})
+		
+
 });

@@ -4,6 +4,7 @@ body {
 
 .header {
   background: url(../images/header_bg.jpg) no-repeat center/cover;
+  overflow: hidden;
 }
 
 .header .container .header_block {
@@ -13,21 +14,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-}
-
-.header .container .header_block::After,
-.header .container .header_block::Before {
-  content: '';
-  background: rgba(16, 22, 54, 0.2);
-  position: absolute;
-  right: -100%;
-  width: 100%;
-  height: 100%;
-  top: 0;
-}
-
-.header .container .header_block::Before {
-  right: 100%;
 }
 
 .header .container .header_block .logotype_wrapper {
@@ -77,6 +63,20 @@ body {
   font-weight: 900;
 }
 
+.header .container .header_block::After,
+.header .container .header_block::Before {
+  content: '';
+  background: rgba(16, 22, 54, 0.2);
+  position: absolute;
+  right: -100%;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+  .header .container .header_block::Before {
+    right: 100%;
+  }
 .header .container .middle_block > h1 {
   font-family: "Lato", sans-serif;
   color: #ffffff;
@@ -128,6 +128,9 @@ body {
   font-size: 1.125rem;
 }
 
+.features_section{
+  overflow: hidden;
+}
 .features_section div.container:nth-of-type(1) {
   background: #efefef;
   position: relative;
