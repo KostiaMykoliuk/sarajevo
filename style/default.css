@@ -97,7 +97,7 @@ a
     width: inherit;
 
     -webkit-box-pack: end;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .header .container .header_block .menu_icon_wrapper .menu_icon
