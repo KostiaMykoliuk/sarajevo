@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
+<html lang="en">
+<head>
 	<meta charset="utf-8">
 	<meta name="description" content="">
 	<meta name="author" content="">
@@ -8,9 +8,11 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,900;1,100&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" type="text/css" href="lib/FontAwesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="lib/Stroke7/css/pe-icon-7-stroke.css">
+	<link rel="stylesheet" type="text/css" href="lib/Stroke7/css/helper.css">
 	<link rel="stylesheet" type="text/css" href="style/default.min.css">
 	<link rel="stylesheet" type="text/css" href="style/layout.min.css">
-	<title></title>
+	<title>Sarajevo</title>
 </head>
 <body>
 <header id="header" class="header">
@@ -21,15 +23,15 @@
 				<span class="subtitle">I'am your tag line</span>
 			</div>
 			<div class="menu_icon_wrapper">
-				<i id="openMemu" class="fas fa-bars menu_icon"></i>
+				<i id="openMenu" class="fas fa-bars menu_icon"></i>
 			</div>		
 			<div id="menuWrapper" class="menu_wrapper">
 				<nav id="mainMenu" class="main_menu">
-					<a class="item" href="#header">Home</a>
-					<a class="item" href="#features">Features</a>
-					<a class="item" href="#works">Works</a>
-					<a class="item" href="#ourTeam">Team</a>
-					<a class="item" href="#contact">Contact</a>
+					<a class="item" data-menu="header" href="#header">Home</a>
+					<a class="item" data-menu="features" href="#features">Features</a>
+					<a class="item" data-menu="works" href="#works">Works</a>
+					<a class="item" data-menu="ourTeam" href="#ourTeam">Team</a>
+					<a class="item" data-menu="contact" href="#contact">Contact</a>
 				</nav>
 			</div>
 		</div>
@@ -40,7 +42,9 @@
 		</div>
 		<div class="social_networks_wrapper">
 			<div class="social_networks">
-				<a target="_blank" href="https://twitter.com/?lang=ru"><i class="fab fa-twitter"></i></a>
+				<a target="_blank" href="https://twitter.com/?lang=ru">
+					<i class="fab fa-twitter"></i>
+				</a>
 				<a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
 				<a target="_blank" href="https://www.behance.net/"><i class="fab fa-behance"></i></a>
 				<a target="_blank" href="https://dribbble.com/"><i class="fab fa-dribbble"></i></a>
@@ -87,50 +91,46 @@
 		<div class="more_features_wrapper">
 			<span class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</span>
 			<div class="more_features">
-				<div class="item_wrapper">
-					<div class="item">
-						<i class="fas fa-tools"></i>
-						<div class="item_text">
-							<span class="title">Accusan timar</span>
-							<p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-						</div>
-					</div>
-					<div class="item">
-						<i class="fas fa-tachometer-alt"></i>
-						<div class="item_text">
-							<span class="title">Accusan timar</span>
-							<p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-						</div>
-					</div>
-					<div class="item">
-						<i class="fas fa-music"></i>
-						<div class="item_text">
-							<span class="title">Accusan timar</span>
-							<p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-						</div>
+				<div class="item">
+					<i class="pe-7s-tools pe-2x"></i>
+					<div class="item_text">
+						<span class="title">Accusan timar</span>
+						<p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
 					</div>
 				</div>
-				<div class="item_wrapper">
-					<div class="item">
-						<i class="fas fa-user-circle"></i>
-						<div class="item_text">
-							<span class="title">Accusan timar</span>
-							<p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-						</div>
+				<div class="item">
+					<i class="pe-7s-timer pe-2x"></i>
+					<div class="item_text">
+						<span class="title">Accusan timar</span>
+						<p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
 					</div>
-					<div class="item">
-						<i class="fab fa-telegram-plane"></i>
-						<div class="item_text">
-							<span class="title">Accusan timar</span>
-							<p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-						</div>
+				</div>
+				<div class="item">
+					<i class="pe-7s-music pe-2x"></i>
+					<div class="item_text">
+						<span class="title">Accusan timar</span>
+						<p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
 					</div>
-					<div class="item">
-						<i class="fas fa-camera"></i>
-						<div class="item_text">
-							<span class="title">Accusan timar</span>
-							<p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-						</div>
+				</div>
+				<div class="item">
+					<i class="pe-7s-user pe-2x"></i>
+					<div class="item_text">
+						<span class="title">Accusan timar</span>
+						<p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+					</div>
+				</div>
+				<div class="item">
+					<i class="pe-7s-paper-plane pe-2x"></i>
+					<div class="item_text">
+						<span class="title">Accusan timar</span>
+						<p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+					</div>
+				</div>
+				<div class="item">
+					<i class="pe-7s-camera pe-2x"></i>
+					<div class="item_text">
+						<span class="title">Accusan timar</span>
+						<p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
 					</div>
 				</div>
 			</div>
@@ -151,9 +151,7 @@
 			</ul>
 		</div>
 	</div>
-	<div id="ourWorks" class="our_works">
-
-	</div>
+	<div id="ourWorks" class="our_works"></div>
 </section>
 <section id="ourTeam" class="our_team_section">
 	<div class="container">
@@ -162,9 +160,9 @@
 		<div class="our_team">
 			<div class="team_member">
 				<div class="img_wrapper">
-					<img src="images/john_filmr_doe.jpeg">
+					<img src="images/john_filmr_doe.jpeg" alt="John Filmr Doe">
 					<div class="team_member_info">
-						<span class="title">Nemo enim ipsam voluptatem quia voluptas </span>
+						<span title="Nemo enim ipsam voluptatem quia voluptas" class="title">Nemo enim ipsam voluptatem quia voluptas </span>
 						<span class="text">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</span>
 						<div class="social_networks">
 							<a href="#"><i class="fab fa-twitter"></i></a>
@@ -178,9 +176,9 @@
 			</div>
 			<div class="team_member">
 				<div class="img_wrapper">
-					<img src="images/chystine_hineu.jpeg">
+					<img src="images/chystine_hineu.jpeg" alt="Chystine Hineu">
 					<div class="team_member_info">
-						<span class="title">Nemo enim ipsam voluptatem quia voluptas </span>
+						<span class="title" title="Nemo enim ipsam voluptatem quia voluptas">Nemo enim ipsam voluptatem quia voluptas </span>
 						<span class="text">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</span>
 						<div class="social_networks">
 							<a href="#"><i class="fab fa-twitter"></i></a>
@@ -194,9 +192,9 @@
 			</div>
 			<div class="team_member">
 				<div class="img_wrapper">
-					<img src="images/martin_matrone.jpeg">
+					<img src="images/martin_matrone.jpeg" alt="Martin Matrone">
 					<div class="team_member_info">
-						<span class="title">Nemo enim ipsam voluptatem quia voluptas </span>
+						<span class="title" title="Nemo enim ipsam voluptatem quia voluptas">Nemo enim ipsam voluptatem quia voluptas </span>
 						<span class="text">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</span>
 						<div class="social_networks">
 							<a href="#"><i class="fab fa-twitter"></i></a>
@@ -210,9 +208,9 @@
 			</div>
 			<div class="team_member">
 				<div class="img_wrapper">
-					<img src="images/steve_flaulkin.jpeg">
+					<img src="images/steve_flaulkin.jpeg" alt="Steve Flaulkin">
 					<div class="team_member_info">
-						<span class="title">Nemo enim ipsam voluptatem quia voluptas </span>
+						<span class="title" title="Nemo enim ipsam voluptatem quia voluptas">Nemo enim ipsam voluptatem quia voluptas </span>
 						<span class="text">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</span>
 						<div class="social_networks">
 							<a href="#"><i class="fab fa-twitter"></i></a>
@@ -223,31 +221,31 @@
 				</div>
 				<span class="name">Steve Flaulkin</span>
 				<span class="profession">Sr. UI Designer</span>
-			
+			</div>
 		</div>
-	</div>
+	</div>	
 </section>
 <section id="funFacts" class="fun_facts_section">
 	<div class="container">
 		<h3>Some fun facts</h3>
 		<div class="fun_facts">
 			<div class="fact">
-				<i class="fas fa-clock"></i>
+				<i class="pe-7s-clock pe-2x"></i>
 				<span class="number">3200</span>
 				<span class="name">Hours of work</span>
 			</div>
 			<div class="fact">
-				<i class="fas fa-user-friends"></i>
+				<i class="pe-7s-users pe-2x"></i>
 				<span class="number">120</span>
 				<span class="name">Satisfied Clinets</span>
 			</div>
 			<div class="fact">
-				<i class="fas fa-rocket"></i>
+				<i class="pe-7s-rocket pe-2x"></i>
 				<span class="number">360</span>
 				<span class="name">Projects delivered</span>
 			</div>
 			<div class="fact">
-				<i class="fas fa-trophy"></i>
+				<i class="pe-7s-cup pe-2x"></i>
 				<span class="number">42</span>
 				<span class="name">Awards Won</span>
 			</div>
@@ -265,7 +263,7 @@
 				<span class="phone">(401) 1234 567</span>
 				<span class="email">hello@brandi.com</span>
 			</div>
-			<form action="message.php" method="post">
+			<form action="php/message.php" method="POST">
 				<span class="title">Say hello!</span>
 				<div class="input_wrapper">
 					<input type="text" name="name" placeholder="Name">
@@ -285,7 +283,9 @@
 			</div>
 		</div>
 	</div>
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8729.68715150548!2d26.99494823636569!3d49.421168004265574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4732064344bb178b%3A0xd9f30b3b24d9c964!2z0KXQvNC10LvRjNC90LjRhtC60LjQuSwg0KXQvNC10LvRjNC90LjRhtC60LDRjyDQvtCx0LvQsNGB0YLRjCwgMjkwMDA!5e0!3m2!1sru!2sua!4v1612487681102!5m2!1sru!2sua" width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	<div class="google_maps">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8729.68715150548!2d26.99494823636569!3d49.421168004265574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4732064344bb178b%3A0xd9f30b3b24d9c964!2z0KXQvNC10LvRjNC90LjRhtC60LjQuSwg0KXQvNC10LvRjNC90LjRhtC60LDRjyDQvtCx0LvQsNGB0YLRjCwgMjkwMDA!5e0!3m2!1sru!2sua!4v1612487681102!5m2!1sru!2sua" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	</div>
 </section>
 <footer id="footer" class="footer">
 	<div class="container">
@@ -295,7 +295,7 @@
 		</div>
 		<div class="subscribe">
 			<span class="title">Subscribe</span>
-			<form action="subscribe.php" method="post">
+			<form action="php/subscribe.php" method="POST">
 				<input id="subscribe" type="email" name="email">
 				<label for="subscribe"><i class="fas fa-arrow-right"></i></label>
 			</form>
