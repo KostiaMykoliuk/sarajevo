@@ -880,14 +880,16 @@ a
     {
         margin-top: 0;
     }
+    .works_section .our_works .img_wrapper
+    {
+        width: 50%;
+    }
+
+
 }
 
 @media screen and (min-width: 576px)
 {
-    .container
-    {
-        max-width: 540px;
-    }
     .container
     {
         max-width: 540px;
