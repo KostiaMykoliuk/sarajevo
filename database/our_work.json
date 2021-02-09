@@ -3,103 +3,85 @@
 	"description" : "",
 	"file" : "index.html",
 	"works":{
-		"filtter_name":{
-				"0" : "branding",
-				"1" : "web",
-				"2" : "logo_design",
-				"3" : "photography"
+		"0" : {
+				"name" : "name1",
+				"category" : "branding",
+				"img_url" : "https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg"
 			},
-		"branding" : 
-			{
-				"0" : {
-						"name" : "name1",
-						"category" : "branding",
-						"img_url" : "https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg"
-					},
-				"1" : {
-						"name" : "name2",
-						"category" : "branding",
-						"img_url" : "https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2019/07/Man-Silhouette.jpg"
-					},
-				"2" : {
-						"name" : "name3",
-						"category" : "branding",
-						"img_url" : "https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg"
-					},
-				"3" : {
-						"name" : "name4",
-						"category" : "branding",
-						"img_url" : "https://www.colesclassroom.com/wp-content/uploads/2017/08/Sunset-pexels-photo-132037_BLOG.jpg"
-					}
+		"1" : {
+				"name" : "name2",
+				"category" : "branding",
+				"img_url" : "https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2019/07/Man-Silhouette.jpg"
 			},
-		"web" : 
-			{
-				"0" : {
-						"name" : "name1",
-						"category" : "web",
-						"img_url" : "https://www.planetware.com/wpimages/2020/02/st-lucia-in-pictures-beautiful-places-to-photograph-pitons-jade-mountain-resort.jpg"
-					},
-				"1" : {
-						"name" : "name2",
-						"category" : "web",
-						"img_url" : "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
-					},
-				"2" : {
-						"name" : "name3",
-						"category" : "web",
-						"img_url" : "https://s01.sgp1.cdn.digitaloceanspaces.com/article/143182-cuwwznuyek-1592722911.jpg"
-					},
-				"3" : {
-						"name" : "name4",
-						"category" : "web",
-						"img_url" : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/playlists/playlist_398/reconnect_with_nature.jpg?"
-					}
+		"2" : {
+				"name" : "name3",
+				"category" : "branding",
+				"img_url" : "https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg"
 			},
-		"logo_design" : 
-			{
-				"0" : {
-						"name" : "name1",
-						"category" : "logo_design",
-						"img_url" : "https://therightsofnature.org/wp-content/uploads/2018/01/turkey-3048299_1920-1366x550.jpg"
-					},
-				"1" : {
-						"name" : "name2",
-						"category" : "logo_design",
-						"img_url" : "https://cdn.the-scientist.com/assets/articleNo/66864/aImg/35078/foresttb-m.jpg"
-					},
-				"2" : {
-						"name" : "name3",
-						"category" : "logo_design",
-						"img_url" : "http://whc.unesco.org/uploads/thumbs/news_2119-890-520-20200605125852.jpg"
-					},
-				"3" : {
-						"name" : "name4",
-						"category" : "logo_design",
-						"img_url" : "https://www.pbs.org/wnet/nature/files/2019/07/Super-Hummingbirds-2-1280x675.jpg"
-					}
+		"3" : {
+				"name" : "name4",
+				"category" : "branding",
+				"img_url" : "https://www.colesclassroom.com/wp-content/uploads/2017/08/Sunset-pexels-photo-132037_BLOG.jpg"
+			},	
+		"4" : {
+				"name" : "name1",
+				"category" : "web",
+				"img_url" : "https://www.planetware.com/wpimages/2020/02/st-lucia-in-pictures-beautiful-places-to-photograph-pitons-jade-mountain-resort.jpg"
 			},
-		"photography" : 
-			{
-				"0" : {
-						"name" : "name1",
-						"category" : "photography",
-						"img_url" : "https://horizon-media.s3-eu-west-1.amazonaws.com/s3fs-public/field/image/ecosystem.jpg"
-					},
-				"1" : {
-						"name" : "name2",
-						"category" : "photography",
-						"img_url" : "https://www.greenpeace.org/static/planet4-international-stateless/2017/11/GP0STOE2U.jpg"
-					},
-				"2" : {
-						"name" : "name3",
-						"category" : "photography",
-						"img_url" : "https://cosmosmagazine.com/wp-content/uploads/2020/02/191010_nature.jpg"
-					},
-				"3" : {
-						"name" : "name4",
-						"category" : "photography",
-						"img_url" : "https://www.brinknews.com/wp-content/uploads/2019/09/GettyImages-81794997.jpg"
-					}
+		"5" : {
+				"name" : "name2",
+				"category" : "web",
+				"img_url" : "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
+			},
+		"6" : {
+				"name" : "name3",
+				"category" : "web",
+				"img_url" : "https://s01.sgp1.cdn.digitaloceanspaces.com/article/143182-cuwwznuyek-1592722911.jpg"
+			},
+		"7" : {
+				"name" : "name4",
+				"category" : "web",
+				"img_url" : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/playlists/playlist_398/reconnect_with_nature.jpg?"
+			},
+		"8" : {
+				"name" : "name1",
+				"category" : "logo_design",
+				"img_url" : "https://therightsofnature.org/wp-content/uploads/2018/01/turkey-3048299_1920-1366x550.jpg"
+			},
+		"9" : {
+				"name" : "name2",
+				"category" : "logo_design",
+				"img_url" : "https://cdn.the-scientist.com/assets/articleNo/66864/aImg/35078/foresttb-m.jpg"
+			},
+		"10" : {
+				"name" : "name3",
+				"category" : "logo_design",
+				"img_url" : "http://whc.unesco.org/uploads/thumbs/news_2119-890-520-20200605125852.jpg"
+			},
+		"11" : {
+				"name" : "name4",
+				"category" : "logo_design",
+				"img_url" : "https://www.pbs.org/wnet/nature/files/2019/07/Super-Hummingbirds-2-1280x675.jpg"
+			},
+		"12" : {
+				"name" : "name1",
+				"category" : "photography",
+				"img_url" : "https://horizon-media.s3-eu-west-1.amazonaws.com/s3fs-public/field/image/ecosystem.jpg"
+			},
+		"13" : {
+				"name" : "name2",
+				"category" : "photography",
+				"img_url" : "https://www.greenpeace.org/static/planet4-international-stateless/2017/11/GP0STOE2U.jpg"
+			},
+		"14" : {
+				"name" : "name3",
+				"category" : "photography",
+				"img_url" : "https://cosmosmagazine.com/wp-content/uploads/2020/02/191010_nature.jpg"
+			},
+		"15" : {
+				"name" : "name4",
+				"category" : "photography",
+				"img_url" : "https://www.brinknews.com/wp-content/uploads/2019/09/GettyImages-81794997.jpg"
 			}
-		}
+	}		
 }
