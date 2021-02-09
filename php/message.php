@@ -8,9 +8,13 @@
 
 	$name = trim($_POST['name']);
 	
-	$textMessage = trim($_POST['massage']);
+	$textMessage = trim($_POST['message']);
 
-	$massage = 'Імя: $name \n Пошта: $sendFrom \n $textMessage';
+	if ($sendFrom && $name && $textMessage) {
+		$massage = 'Імя: $name \n Пошта: $sendFrom \n $textMessage';
+		
+		mail($sendTo, $messageTitle, $massage);
+	}
 
-	mail($sendTo, $messageTitle, $massage);
+	header('Location: /');
 ?>
